@@ -161,7 +161,7 @@ nav {
 .product-image {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  object-fit:cover;
 }
 
 .product-card h3 {
