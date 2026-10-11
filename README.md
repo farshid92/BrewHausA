@@ -1,55 +1,16 @@
-# BrewHaus
+# React + Vite
 
-A small coffee-shop e-commerce site that I'm building step by step while I learn HTML, CSS, React, a backend, and payments.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Status
+Currently, two official plugins are available:
 
-**Week 1: static HTML/CSS landing page**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-The landing page has:
+## React Compiler
 
-- A header with navigation
-- A hero section
-- A "This week's picks" product grid with coffee beans and brewing equipment
-- An about section
-- A footer with shop links and contact details
-- A responsive layout for tablet and mobile
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tech
+## Expanding the ESLint configuration
 
-- Semantic HTML5
-- Plain CSS: custom properties, Grid, and media queries
-
-No frameworks, build tools, or dependencies yet.
-
-## Running locally
-
-Clone the repo and open `index.html` in your browser:
-
-```bash
-git clone <repo-url>
-cd BrewHausA
-```
-
-To get live reload while you edit, you can use the VS Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension instead.
-
-## Project structure
-
-```
-.
-├── index.html          # Landing page markup
-├── styles.css          # All styles, including responsive breakpoints
-└── images/
-    └── products/       # Product photos
-```
-
-## Roadmap
-
-- [x] Static landing page (HTML/CSS)
-- [ ] Rebuild the frontend in React
-- [ ] Backend for products and orders
-- [ ] Cart and checkout with payments
-
-## About
-
-This is a learning project, not a real store. The products, prices, and contact details are placeholders.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
