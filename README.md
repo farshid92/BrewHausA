@@ -91,6 +91,4 @@ To add a product, add it to `src/db/products.data.js` and run `npm run db:seed`.
 - **Railway** builds `server/` and runs `npm start`. Pushes to `main` redeploy automatically.
 - **Vercel** builds `client/`. `vercel.json` forwards `/api/*` to the Railway domain and serves `index.html` for all other paths so client-side routes survive a refresh.
 
-## Roadmap
 
-Next up: Stripe test-mode checkout, automated tests, and CI.
